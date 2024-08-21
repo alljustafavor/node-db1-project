@@ -1,21 +1,21 @@
 const getAll = () => {
-  // DO YOUR MAGIC
+  return "getAll wired"
 }
 
 const getById = id => {
-  // DO YOUR MAGIC
+  return "GetByID wired"
 }
 
 const create = account => {
-  // DO YOUR MAGIC
+  return "Create wired"
 }
 
 const updateById = (id, account) => {
-  // DO YOUR MAGIC
+  return "UpdateByID wired"
 }
 
 const deleteById = id => {
-  // DO YOUR MAGIC
+  return "delete wired"
 }
 
 module.exports = {
