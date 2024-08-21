@@ -5,7 +5,7 @@ const server = express();
 
 server.use(express.json());
 
-server.use("/api/", router);
+server.use("/api/accounts", router);
 
 server.use("/", (req, res) => {
   res.status(200).json({ api: "up" })
